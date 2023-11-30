@@ -2,9 +2,11 @@ package com.practice.taskify_jetpackmvvm.data.repositories
 
 import com.practice.taskify_jetpackmvvm.data.ToDoDao
 import com.practice.taskify_jetpackmvvm.data.models.TodoTask
+import dagger.hilt.android.scopes.ViewModelScoped
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
+@ViewModelScoped
 class ToDoRepository @Inject constructor(private val toDoDao: ToDoDao){
 
 
