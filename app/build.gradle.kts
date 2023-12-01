@@ -69,6 +69,12 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
+
+    // compose navigation
+    val nav_version = "2.7.5"
+
+    implementation("androidx.navigation:navigation-compose:$nav_version")
+
     // Room Components
     implementation("androidx.room:room-runtime:2.6.0")
     //kapt ("androidx.room:room-comipler:2.3.0")
